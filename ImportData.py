@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 ''' 读取MNIST数据方法一'''
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets('MNIST_data',one_hot=True)
+mnist = input_data.read_data_sets('..../MNIST_data',one_hot=True)
 '''1)获得数据集的个数'''
 train_nums = mnist.train.num_examples
 validation_nums = mnist.validation.num_examples
