@@ -17,7 +17,7 @@ p = 50
 
 # get MNIST dataset
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets('/Users/hejiaxin/PycharmProjects/MNIST_data',one_hot=True)
+mnist = input_data.read_data_sets('..../MNIST_data',one_hot=True)
 
 # count the sample number of each datasets
 train_nums = mnist.train.num_examples
