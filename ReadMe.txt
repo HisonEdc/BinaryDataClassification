@@ -1,10 +1,10 @@
-To run the codes in these files, u need download MNIST data first.
+To run the codes in these files, u need download MNIST data first (u'd better name the file as MNIST_data.file and by this u can run the code straightly)
 PaperModel_v1.0 compares ‘0’ and ‘1’ classes
-PaperModel_v2.0 compares ‘0’ and ‘5’ classes, which are more likely mixed up than ‘0’ and ‘1’. 
-PaperModel_v3.0 tries to generate several weak learning machines, and  combine these weak ones as a strong learning machines. But the result shows this binary data model is not sensitive to kind-of random forest method. The accuracy seldom increase, no matter how to tune the parameters
-PaperModel_v4.0 tries to use several kernels to deepen G matrix to transform original data to higher dimension, which hopefully can be linearly classified more easily. But the fact is that the accuracy is even worse. It’s reasonable because the kernel in this model has independent identically distributed standard Gaussian entries. With more random generated kernel, the original information in data will be diluted.
-PaperModel_v5.0 implement a function of setting different layers. It’s obviously from results that with more layers, higher the accuracy is. But there still exist a deadly problem: with more layers, the number of layer pattern perform a feature of exponential explosion. As the number of layer up to 6, CPU cannot be qualified for this model.
-PaperModel_v6.0 compares this model with other traditional successful model, such as SVM, Random Forest and CNN. These models all perform better than binary data model in the aspect of accuracy.
+PaperModel_v1.1 compares ‘0’ and ‘5’ classes, which are more likely mixed up than ‘0’ and ‘1’. 
+PaperModel_v2.0 tries to generate several weak learning machines, and  combine these weak ones as a strong learning machines. But the result shows this binary data model is not sensitive to kind-of random forest method. The accuracy seldom increase, no matter how to tune the parameters
+PaperModel_v3.0 tries to use several kernels to deepen G matrix to transform original data to higher dimension, which hopefully can be linearly classified more easily. But the fact is that the accuracy is even worse. It’s reasonable because the kernel in this model has independent identically distributed standard Gaussian entries. With more random generated kernel, the original information in data will be diluted.
+PaperModel_v4.0 implement a function of setting different layers. It’s obviously from results that with more layers, higher the accuracy is. But there still exist a deadly problem: with more layers, the number of layer pattern perform a feature of exponential explosion. As the number of layer up to 6, CPU cannot be qualified for this model.
+PaperModel_v5.0 compares this model with other traditional successful model, such as SVM, Random Forest and CNN. These models all perform better than binary data model in the aspect of accuracy.
 
 And here are some result of this model:
 Original model
