@@ -2,7 +2,7 @@
 author: He Jiaxin
 Date: 29/03/2019
 Version: V1.0
-Function: Realize Paper Model in MNIST, classifying 0 & 1
+Function: Implement Paper Model in MNIST, classifying 0 & 1
 """
 
 import tensorflow as tf
