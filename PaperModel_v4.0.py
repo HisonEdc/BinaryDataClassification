@@ -2,7 +2,7 @@
 author: He Jiaxin
 Date: 31/03/2019
 Version: V4.0
-Function: Realize the function of choosing layers intelligently
+Function: Implement the function of choosing layers intelligently
 """
 
 # import tensorflow as tf
