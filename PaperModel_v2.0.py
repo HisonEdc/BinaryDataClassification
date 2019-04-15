@@ -2,7 +2,7 @@
 author: He Jiaxin
 Date: 29/03/2019
 Version: V2.0
-Function: Realize Paper Model with random forest, with 0 & 5
+Function: Implement Paper Model with random forest, with 0 & 5
 """
 
 # import tensorflow as tf
